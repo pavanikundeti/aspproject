@@ -1,0 +1,9 @@
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\pavani.k\Desktop\mini_project\App_Data\Database.mdf;Integrated Security=True
+
+
+
+
+"ConnectionStrings": {    
+"DevConnection": "Data Source=(localdb)\ProjectModels;Initial Catalog=fullstackdb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"  }
+
+Scaffold-DbContext "Data Source=(localdb)\ProjectModels;Initial Catalog=fullstackdb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 

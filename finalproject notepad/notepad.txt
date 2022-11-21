@@ -1,0 +1,25 @@
+
+UPDATE DATABASE:
+
+SQl query:
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+update dbo.AspNetUsers
+set UserName='admin@flatworldconnect.com',NormalizedUserName='ADMIN@FLATWORLDCONNECT.COM',Email='admin@flatworldconnect.com',NormalizedEmail='ADMIN@FLATWORLDCONNECT.COM' where id='ec2ceb76-84f6-49e7-957c-b8f1e46f76f4';
+
+email:admin@flatworldconnect.com
+pswd:Admin123*
+
+
+table :
+CREATE TABLE [dbo].[Customer] (
+    [Id]      INT           IDENTITY (1, 1) NOT NULL,
+    [Name]    VARCHAR (50)  NOT NULL,
+    [Address] VARCHAR (50)  NOT NULL,
+    [City]    NVARCHAR (50) NOT NULL,
+    [Email]   VARCHAR (50)  NOT NULL,
+    [Mobile]  VARCHAR (50)  NOT NULL,
+    CONSTRAINT [PK_Customer] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
